@@ -94,3 +94,149 @@
   text-align: center;
   margin: 24px 0;
 }
+.web-dev-section {
+  border: 2px solid red;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dev-card {
+  margin-top: 80px;
+  border: 2px solid #000;
+  width: 986px;
+  height: 1235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dev-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dev-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+
+.dev-card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inspiration-section {
+  width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 88px;
+}
+.inspiration-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-heading {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inspiration-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+}
+.inspiration-video {
+  padding: 30px;
+  margin: 48px 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.current-target-section {
+  width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.current-target-heading {
+  padding: 0;
+  margin: 110px 0;
+}
+.current-target-heading h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.current-target-heading p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.target-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.target-card1 {
+  border-radius: 16px;
+  padding: 40px;
+  margin: 0 24px;
+  background: rgba(255, 76, 30, 0.05);
+  width: 284px;
+  height: 219px;
+}
+
+.target-card2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+  margin: 0 24px;
+  width: 284px;
+  height: 219px;
+}
+.target-card3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+  margin: 0 24px;
+  width: 284px;
+  height: 219px;
+}
